@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <video autoplay loop muted class="bg-video">
+            <source src="./10001361-uhd_4096_2160_30fps.mp4" type="video/mp4">
+        </video>
+
+        <h2 class="main-heading">student-form</h2>
+
+        <div class="form-box">
+            <form action="" class="student-form">
+
+                <input type="text" placeholder="Enter you First Name" id="first-name" class="name" required>
+
+                <input type="text" placeholder="Enter you Last Name" id="second-name" class="name" required>
+
+                <input type="number" placeholder="Roll no." class="Roll-no" required>
+
+                <input type="number" placeholder="mobile no." class="mobile-no" size="10" minlength="10" maxlength="10"
+                    required>
+
+                <div class="class-label-div">
+
+                    <label for="class" class="class-label"> Choose Your class</label> &nbsp; &nbsp;
+
+                    <select name="class" class="classes">
+
+                        <option value="1st">1st</option>
+                        <option value="2nd">2nd</option>
+                        <option value="3rd">3rd</option>
+                        <option value="4th">4th</option>
+                        <option value="5th">5th</option>
+                    </select>
+
+                </div>
+                <button type="submit" class="submit-button">submit</button>
+                <button type="button" class="save-button">Save</button>
+            </form>
+        </div> <br>
+
+        <div class="table-content">
+            <h3 class="table-heading">
+                Student-Details-Table
+            </h3>
+            <br> <br> <br>
+            <table class="table-class">
+
+                <tr class="table-row">
+                    <th>
+                        userid <span class="upper_arrow"> &uarr; </span> <span class="lower_arrow"> &darr; </span>
+                    </th>
+                    <th>
+                        First-Name <span class="upper_arrow"> &uarr; </span> <span class="lower_arrow"> &darr; </span>
+                    </th>
+                    <th>
+                        Last-Name <span class="upper_arrow"> &uarr; </span> <span class="lower_arrow"> &darr; </span>
+                    </th>
+                    <th>
+                        Roll.No <span class="upper_arrow"> &uarr; </span> <span class="lower_arrow"> &darr; </span>
+                    </th>
+                    <th>
+                        Mobile.No
+                    </th>
+                    <th>
+                        Class <span class="upper_arrow"> &uarr; </span> <span class="lower_arrow"> &darr; </span>
+                    </th>
+                    <th>
+                        Action 
+                    </th>
+                </tr>
+            </table>
+        </div>
+
+
+    </div>
+   <script src="./script.js"></script>
+</body>
+
+</html>
