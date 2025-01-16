@@ -1,4 +1,4 @@
-#Student Management System with MySQL and API
+# Student Management System with MySQL and API
 Overview
 A full-fledged Student Management System where users can manage student records using an API. This system allows users to perform CRUD (Create, Read, Update, Delete) operations on student data stored in a MySQL database. The application consists of a backend API built with Node.js and Express.js, and the frontend communicates with the API to manage the data.
 
@@ -10,7 +10,7 @@ Update: Edit existing student records.
 Delete: Remove student records from the database.
 API Endpoints: A set of RESTful API endpoints for performing CRUD operations.
 Frontend Interface: A simple user interface to interact with the backend API and manage student data.
-#Technologies Used
+# Technologies Used
 Frontend:
 HTML
 CSS
